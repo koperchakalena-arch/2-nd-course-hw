@@ -19,3 +19,179 @@ a {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
 }
+
+.mainheader {
+    background-color: #E1FF8F;
+    position: relative;
+}
+
+.mainheader__bg1 {
+    position: absolute;
+    right: 0%;
+    z-index: 1;
+}
+
+.mainheader__bg2 {
+    position: absolute;
+    right: 15%;
+    z-index: 1;
+}
+
+.mainheader__bg3 {
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    z-index: 1;
+}
+
+.mainheader__bg4 {
+    position: absolute;
+    right: 0%;
+    top: 55%;
+    z-index: 1;
+}
+
+.mainheader__bg5 {
+    position: absolute;
+    right: 8%;
+    top: 70%;
+    z-index: 1;
+}
+
+.mainheader__bg6 {
+    position: absolute;
+    right: 27%;
+    top: 80%;
+    z-index: 1;
+}
+
+.mainheader__bg7 {
+    position: absolute;
+    right: 35%;
+    top: 73%;
+    z-index: 1;
+}
+
+.mainheader__bg8 {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    z-index: 1;
+}
+
+.mainheader__bg9 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+}
+
+.header {
+    &__main {
+        font-weight: 700;
+        font-size: 64px;
+        padding-top: 196px;
+        padding-bottom: 24px;
+    }
+
+    &__desc {
+        font-size: 24px;
+        padding-bottom: 48px;
+    }
+
+    &__button {
+        background: #202027;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        border-radius: 60px;
+        width: 247px;
+        height: 66px;
+        font-size: 24px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin-bottom: 156px;
+        font-weight: 600;
+
+        &:hover {
+            background: white;
+            border: 1px solid #000000;
+            color: #000000;
+            transition: all 0.5s;
+        }
+    }
+}
+
+.about-games {
+    background-color: #202027;
+
+    &__heading {
+        font-weight: 700;
+        font-size: 64px;
+        color: #FFFFFF;
+        padding-top: 94px;
+    }
+
+    &__desc {
+        color: #FFFFFF;
+        line-height: 32px;
+        font-size: 24px;
+        padding-top: 24px;
+        padding-bottom: 72px;
+    }
+
+    &__cards {
+        display: flex;
+        column-gap: 32px;
+        row-gap: 32px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 50px;
+
+    }
+
+    &__card {
+        width: 378px;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px;
+        text-decoration: none;
+
+        &:hover {
+            transform: scale(1.08);
+            transition: all 0.5s;
+        }
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__number {
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color: #F7F7F7;
+        width: 111px;
+        border-radius: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8px;
+        padding-bottom: 10px;
+        margin-top: 32px;
+        margin-left: 32px;
+        color: #202027;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 100%;
+        padding-left: 32px;
+        padding-bottom: 36px;
+        padding-top: 16px;
+        padding-right: 32px;
+        color: #000000;
+    }
+}
