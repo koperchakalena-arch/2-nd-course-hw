@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: Montserrat;
+}
+
+a,
+input,
+button {
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}/*# sourceMappingURL=style.css.map */
