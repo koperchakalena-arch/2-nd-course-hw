@@ -118,6 +118,7 @@ a {
 
 .about-games {
   background-color: #202027;
+  position: relative;
 }
 .about-games__heading {
   font-weight: 700;
@@ -149,6 +150,7 @@ a {
   box-sizing: border-box;
   border-radius: 30px;
   text-decoration: none;
+  z-index: 1;
 }
 .about-games__card:hover {
   transform: scale(1.08);
@@ -181,4 +183,25 @@ a {
   padding-top: 16px;
   padding-right: 32px;
   color: #000000;
+}
+
+.ag_bg1 {
+  position: absolute;
+  right: 0%;
+  top: 77px;
+  z-index: 0;
+}
+
+.ag_bg2 {
+  position: absolute;
+  z-index: 0;
+  top: 51%;
+  left: 3%;
+}
+
+.ag_bg3 {
+  position: absolute;
+  z-index: 0;
+  top: 58%;
+  left: 5%;
 }/*# sourceMappingURL=style.css.map */
