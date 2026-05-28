@@ -120,6 +120,18 @@ a {
   background-color: #202027;
   position: relative;
 }
+.about-games__first {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  align-items: flex-start;
+}
+.about-games__second {
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  align-items: flex-end;
+}
 .about-games__heading {
   font-weight: 700;
   font-size: 64px;
@@ -137,7 +149,6 @@ a {
   display: flex;
   -moz-column-gap: 32px;
        column-gap: 32px;
-  row-gap: 32px;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
@@ -184,22 +195,19 @@ a {
   padding-right: 32px;
   color: #000000;
 }
-
-.ag_bg1 {
+.about-games .ag_bg1 {
   position: absolute;
   right: 0%;
   top: 77px;
   z-index: 0;
 }
-
-.ag_bg2 {
+.about-games .ag_bg2 {
   position: absolute;
   z-index: 0;
   top: 51%;
   left: 3%;
 }
-
-.ag_bg3 {
+.about-games .ag_bg3 {
   position: absolute;
   z-index: 0;
   top: 58%;
