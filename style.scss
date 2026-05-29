@@ -23,6 +23,10 @@ a {
 .mainheader {
     background-color: #E1FF8F;
     position: relative;
+
+    &__mobile{
+        display: none;
+    }
 }
 
 .mainheader__bg1 {

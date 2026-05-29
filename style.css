@@ -24,6 +24,9 @@ a {
   background-color: #E1FF8F;
   position: relative;
 }
+.mainheader__mobile {
+  display: none;
+}
 
 .mainheader__bg1 {
   position: absolute;
@@ -226,31 +229,7 @@ a {
     background-color: #E1FF8F;
     position: relative;
   }
-  .mainheader__bg1 {
-    display: none;
-  }
-  .mainheader__bg2 {
-    display: none;
-  }
-  .mainheader__bg3 {
-    display: none;
-  }
-  .mainheader__bg4 {
-    display: none;
-  }
-  .mainheader__bg5 {
-    display: none;
-  }
-  .mainheader__bg6 {
-    display: none;
-  }
-  .mainheader__bg7 {
-    display: none;
-  }
-  .mainheader__bg8 {
-    display: none;
-  }
-  .mainheader__bg9 {
+  .mainheader__bg {
     display: none;
   }
   .header__main {
@@ -259,6 +238,8 @@ a {
     line-height: 100%;
     text-align: center;
     vertical-align: middle;
+    padding-top: 147px;
+    z-index: 1;
   }
   .header__desc {
     font-weight: 400;
@@ -266,6 +247,8 @@ a {
     line-height: 100%;
     text-align: center;
     vertical-align: middle;
+    padding-bottom: 36px;
+    z-index: 1;
   }
   .header__button {
     background: #202027;
@@ -279,7 +262,7 @@ a {
     color: #FFFFFF;
     margin-bottom: 180px;
     font-weight: 600;
-    z-index: 0;
+    z-index: 1;
   }
   .header__button:hover {
     background: white;
