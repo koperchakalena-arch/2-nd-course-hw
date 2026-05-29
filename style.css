@@ -91,10 +91,12 @@ a {
   font-size: 64px;
   padding-top: 196px;
   padding-bottom: 24px;
+  z-index: 0;
 }
 .header__desc {
   font-size: 24px;
   padding-bottom: 48px;
+  z-index: 0;
 }
 .header__button {
   background: #202027;
@@ -108,6 +110,7 @@ a {
   color: #FFFFFF;
   margin-bottom: 156px;
   font-weight: 600;
+  z-index: 0;
 }
 .header__button:hover {
   background: white;
@@ -212,4 +215,22 @@ a {
   z-index: 0;
   top: 58%;
   left: 5%;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .mainheader {
+    background-color: #E1FF8F;
+    position: relative;
+  }
+  .header__main {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
 }/*# sourceMappingURL=style.css.map */

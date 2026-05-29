@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mainheader {
+        background-color: #E1FF8F;
+        position: relative;
+    }
+
+    .header {
+        &__main {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 100%;
+            text-align: center;
+            vertical-align: middle;
+        }
+    }
+}

@@ -92,11 +92,13 @@ a {
         font-size: 64px;
         padding-top: 196px;
         padding-bottom: 24px;
+        z-index: 0;
     }
 
     &__desc {
         font-size: 24px;
         padding-bottom: 48px;
+        z-index: 0;
     }
 
     &__button {
@@ -111,6 +113,7 @@ a {
         color: #FFFFFF;
         margin-bottom: 156px;
         font-weight: 600;
+        z-index: 0;
 
         &:hover {
             background: white;
@@ -230,3 +233,5 @@ a {
         left: 5%;
     }
 }
+
+@import "mobile"
