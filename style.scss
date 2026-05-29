@@ -1,3 +1,5 @@
+$width-site: 1200px;
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +26,7 @@ a {
     background-color: #E1FF8F;
     position: relative;
 
-    &__mobile{
+    &__mobile {
         display: none;
     }
 }

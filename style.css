@@ -232,6 +232,11 @@ a {
   .mainheader__bg {
     display: none;
   }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .header__main {
     font-weight: 700;
     font-size: 40px;
@@ -269,5 +274,47 @@ a {
     border: 1px solid #000000;
     color: #000000;
     transition: all 0.5s;
+  }
+  .ag_bg1 {
+    display: none;
+  }
+  .ag_bg2 {
+    display: none;
+  }
+  .ag_bg3 {
+    display: none;
+  }
+  .about-games__heading {
+    display: none;
+  }
+  .about-games__desc {
+    display: none;
+  }
+  .about-games__first {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+  }
+  .about-games__second {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+  .about-games__card {
+    width: 343px;
+    z-index: 1;
+  }
+  .about-games__card:hover {
+    transform: scale(1.08);
+    transition: all 0.5s;
+  }
+  .about-games__number {
+    display: none;
+  }
+  .about-games__name {
+    padding-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */

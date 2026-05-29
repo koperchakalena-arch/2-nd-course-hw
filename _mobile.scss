@@ -14,6 +14,10 @@
     }
 
     .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         &__main {
             font-weight: 700;
             font-size: 40px;
@@ -54,6 +58,63 @@
                 color: #000000;
                 transition: all 0.5s;
             }
+        }
+    }
+
+    .ag {
+        &_bg1 {
+            display: none;
+        }
+
+        &_bg2 {
+            display: none;
+        }
+
+        &_bg3 {
+            display: none;
+        }
+    }
+
+    .about-games {
+        &__heading {
+            display: none;
+        }
+
+        &__desc {
+            display: none;
+        }
+
+        &__first {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-bottom: 24px;
+            align-items: center;
+        }
+
+        &__second {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+
+        &__card {
+            width: 343px;
+            z-index: 1;
+
+            &:hover {
+                transform: scale(1.08);
+                transition: all 0.5s;
+            }
+        }
+
+        &__number {
+            display: none;
+        }
+
+        &__name {
+            padding-top: 30px;
         }
     }
 }
