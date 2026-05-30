@@ -8,6 +8,11 @@
         background-color: #E1FF8F;
         position: relative;
 
+        &__mobile1 {
+            right: 0%;
+            position: absolute;
+        }
+
         &__bg {
             display: none;
         }
@@ -51,13 +56,6 @@
             margin-bottom: 180px;
             font-weight: 600;
             z-index: 1;
-
-            &:hover {
-                background: white;
-                border: 1px solid #000000;
-                color: #000000;
-                transition: all 0.5s;
-            }
         }
     }
 
@@ -84,6 +82,21 @@
             display: none;
         }
 
+        &__mobile {
+            font-weight: 700;
+            font-size: 40px;
+            color: #FFFFFF;
+            padding-top: 94px;
+
+            &-desc {
+                font-size: 16px;
+                color: black;
+                padding-left: 32px;
+                padding-bottom: 100px;
+            }
+
+        }
+
         &__first {
             display: flex;
             flex-direction: column;
@@ -102,6 +115,7 @@
         &__card {
             width: 343px;
             z-index: 1;
+            position: relative;
 
             &:hover {
                 transform: scale(1.08);
