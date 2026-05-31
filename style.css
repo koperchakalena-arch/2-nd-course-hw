@@ -323,7 +323,8 @@ a {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
-    padding-top: 94px;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
   .about-games__mobile-desc {
     font-size: 16px;
@@ -358,5 +359,6 @@ a {
   }
   .about-games__name {
     padding-top: 30px;
+    padding-bottom: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
