@@ -17,25 +17,25 @@
             display: none;
         }
 
-        &__mobile2{
+        &__mobile2 {
             position: absolute;
             top: 8%;
             left: 20%;
         }
 
-        &__mobile3{
+        &__mobile3 {
             position: absolute;
             top: 15%;
             left: 10%;
         }
 
-        &__mobile4{
+        &__mobile4 {
             position: absolute;
             bottom: 15%;
             right: 25%;
         }
 
-        &__mobile5{
+        &__mobile5 {
             position: absolute;
             bottom: 5%;
             right: 15%;
@@ -117,7 +117,7 @@
                 font-size: 16px;
                 color: black;
                 padding-left: 32px;
-                padding-bottom: 100px;
+                padding-bottom: 120px;
             }
 
         }
@@ -146,6 +146,23 @@
                 transform: scale(1.08);
                 transition: all 0.5s;
             }
+        }
+
+        &__button {
+            z-index: 2;
+            position: absolute;
+            bottom: 32px;
+            left: 30px;
+            background: #202027;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            border-radius: 60px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            font-weight: 600;
         }
 
         &__number {
