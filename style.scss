@@ -252,4 +252,19 @@ a {
     }
 }
 
+.footer {
+    background-color: #BDED35;
+
+    &__text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+}
+
 @import "mobile"
