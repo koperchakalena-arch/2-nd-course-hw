@@ -16,6 +16,30 @@
         &__bg {
             display: none;
         }
+
+        &__mobile2{
+            position: absolute;
+            top: 8%;
+            left: 20%;
+        }
+
+        &__mobile3{
+            position: absolute;
+            top: 15%;
+            left: 10%;
+        }
+
+        &__mobile4{
+            position: absolute;
+            bottom: 15%;
+            right: 25%;
+        }
+
+        &__mobile5{
+            position: absolute;
+            bottom: 5%;
+            right: 15%;
+        }
     }
 
     .header {

@@ -247,6 +247,26 @@ a {
   .mainheader__bg {
     display: none;
   }
+  .mainheader__mobile2 {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+  }
+  .mainheader__mobile3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+  .mainheader__mobile4 {
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+  }
+  .mainheader__mobile5 {
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+  }
   .header {
     display: flex;
     flex-direction: column;
