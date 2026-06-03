@@ -12,3 +12,6 @@ alert(product)
 
 let quotient = a % b;
 alert (quotient)
+
+let rate = b ** 5;
+alert(rate)
