@@ -288,20 +288,22 @@ a {
   .header__main {
     font-weight: 700;
     font-size: 40px;
-    line-height: 100%;
+    line-height: 49px;
     text-align: center;
     vertical-align: middle;
     padding-top: 147px;
     z-index: 1;
   }
   .header__desc {
+    display: none;
+  }
+  .header__desc-mobile {
     font-weight: 400;
     font-size: 16px;
-    line-height: 100%;
+    line-height: 20px;
     text-align: center;
     vertical-align: middle;
     padding-bottom: 36px;
-    z-index: 1;
   }
   .header__button {
     background: #202027;
@@ -344,6 +346,7 @@ a {
     color: black;
     padding-left: 32px;
     padding-bottom: 120px;
+    line-height: 20px;
   }
   .about-games__first {
     display: flex;
