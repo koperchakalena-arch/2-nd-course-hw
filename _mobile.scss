@@ -1,0 +1,181 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .mainheader {
+        background-color: #E1FF8F;
+        position: relative;
+
+        &__mobile1 {
+            right: 0%;
+            position: absolute;
+        }
+
+        &__bg {
+            display: none;
+        }
+
+        &__mobile2 {
+            position: absolute;
+            top: 8%;
+            left: 20%;
+        }
+
+        &__mobile3 {
+            position: absolute;
+            top: 15%;
+            left: 10%;
+        }
+
+        &__mobile4 {
+            position: absolute;
+            bottom: 15%;
+            right: 25%;
+        }
+
+        &__mobile5 {
+            position: absolute;
+            bottom: 5%;
+            right: 15%;
+        }
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__main {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 147px;
+            z-index: 1;
+        }
+
+        &__desc {
+            display: none;
+        }
+
+        &__desc-mobile {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            vertical-align: middle;
+            padding-bottom: 36px;
+        }
+
+        &__button {
+            background: #202027;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            border-radius: 60px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-bottom: 180px;
+            font-weight: 600;
+            z-index: 1;
+        }
+    }
+
+    .ag {
+        &_bg1 {
+            display: none;
+        }
+
+        &_bg2 {
+            display: none;
+        }
+
+        &_bg3 {
+            display: none;
+        }
+    }
+
+    .about-games {
+        &__heading {
+            display: none;
+        }
+
+        &__desc {
+            display: none;
+        }
+
+        &__mobile {
+            font-weight: 700;
+            font-size: 40px;
+            color: #FFFFFF;
+            padding-top: 48px;
+            padding-bottom: 48px;
+
+            &-desc {
+                font-size: 16px;
+                color: black;
+                padding-left: 32px;
+                padding-bottom: 120px;
+                line-height: 20px;
+            }
+
+        }
+
+        &__first {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            padding-bottom: 24px;
+            align-items: center;
+        }
+
+        &__second {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            align-items: center;
+        }
+
+        &__card {
+            width: 343px;
+            z-index: 1;
+            position: relative;
+
+            &:hover {
+                transform: scale(1.08);
+                transition: all 0.5s;
+            }
+        }
+
+        &__button {
+            z-index: 2;
+            position: absolute;
+            bottom: 32px;
+            left: 30px;
+            background: #202027;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            border-radius: 60px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            line-height: 18px;
+            color: #FFFFFF;
+            font-weight: 600;
+        }
+
+        &__number {
+            display: none;
+        }
+
+        &__name {
+            padding-top: 30px;
+            padding-bottom: 16px;
+        }
+    }
+}

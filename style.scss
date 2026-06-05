@@ -15,6 +15,24 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 768px) {
+    .mainheader__mobile {
+        display: none;
+    }
+
+    .about-games__mobile {
+        display: none;
+
+        &-desc {
+            display: none;
+        }
+    }
+
+    .about-games__button {
+        display: none;
+    }
+}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -92,11 +110,13 @@ a {
         font-size: 64px;
         padding-top: 196px;
         padding-bottom: 24px;
+        z-index: 0;
     }
 
     &__desc {
         font-size: 24px;
         padding-bottom: 48px;
+        z-index: 0;
     }
 
     &__button {
@@ -111,6 +131,7 @@ a {
         color: #FFFFFF;
         margin-bottom: 156px;
         font-weight: 600;
+        z-index: 0;
 
         &:hover {
             background: white;
@@ -230,3 +251,20 @@ a {
         left: 5%;
     }
 }
+
+.footer {
+    background-color: #BDED35;
+
+    &__text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+}
+
+@import "mobile"
