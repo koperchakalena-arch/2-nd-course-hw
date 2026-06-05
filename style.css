@@ -233,6 +233,17 @@ a {
 
 .minigames {
   background-color: #202027;
+  position: relative;
+}
+.minigames__bg1 {
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+.minigames__bg2 {
+  position: absolute;
+  right: 10%;
+  top: 6%;
 }
 .minigames__header {
   font-weight: 700;
