@@ -240,6 +240,65 @@ a {
   line-height: 64px;
   vertical-align: middle;
   color: #FFFFFF;
+  padding-bottom: 72px;
+}
+.minigames__cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.minigames__card {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-decoration: none;
+  z-index: 1;
+  height: 500px;
+  justify-content: space-between;
+}
+.minigames__desc {
+  display: flex;
+  flex-direction: column;
+}
+.minigames__name {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  vertical-align: middle;
+  color: #202027;
+  padding-top: 48px;
+  padding-left: 48px;
+  padding-bottom: 24px;
+}
+.minigames__about {
+  color: #202027;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  vertical-align: middle;
+  padding-left: 48px;
+  padding-bottom: 36px;
+}
+.minigames__button {
+  background: #202027;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  border-radius: 60px;
+  width: 247px;
+  height: 66px;
+  font-size: 24px;
+  line-height: 18px;
+  color: #FFFFFF;
+  font-weight: 600;
+  margin-left: 48px;
+}
+.minigames__button:hover {
+  background: white;
+  border: 1px solid #000000;
+  color: #000000;
+  transition: all 0.5s;
 }
 
 .footer {
