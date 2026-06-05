@@ -28,6 +28,9 @@ a {
   .about-games__button {
     display: none;
   }
+  .header__desc-mobile {
+    display: none;
+  }
 }
 .center {
   padding-left: calc(50% - 600px);
