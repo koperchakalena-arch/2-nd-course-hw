@@ -28,9 +28,6 @@ a {
   .about-games__button {
     display: none;
   }
-  .header__desc-mobile{
-    display: none;
-  }
 }
 .center {
   padding-left: calc(50% - 600px);
@@ -234,6 +231,17 @@ a {
   left: 5%;
 }
 
+.minigames {
+  background-color: #202027;
+}
+.minigames__header {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 64px;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
 .footer {
   background-color: #BDED35;
 }
@@ -395,5 +403,8 @@ a {
   .about-games__name {
     padding-top: 30px;
     padding-bottom: 16px;
+  }
+  .minigames {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

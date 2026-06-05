@@ -252,6 +252,18 @@ a {
     }
 }
 
+.minigames {
+    background-color: #202027;
+
+    &__header {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        vertical-align: middle;
+        color: #FFFFFF;
+    }
+}
+
 .footer {
     background-color: #BDED35;
 
