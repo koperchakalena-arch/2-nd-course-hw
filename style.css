@@ -237,16 +237,17 @@ a {
 .minigames {
   background-color: #202027;
   position: relative;
+  padding-bottom: 144px;
 }
 .minigames__bg1 {
   position: absolute;
   right: 5%;
-  top: 10%;
+  top: 2%;
 }
 .minigames__bg2 {
   position: absolute;
   right: 10%;
-  top: 6%;
+  top: 1%;
 }
 .minigames__header {
   font-weight: 700;
@@ -271,6 +272,17 @@ a {
   z-index: 1;
   height: 500px;
   justify-content: space-between;
+}
+.minigames__card-second {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 30px;
+  text-decoration: none;
+  z-index: 1;
+  height: 500px;
+  justify-content: flex-start;
 }
 .minigames__desc {
   display: flex;
