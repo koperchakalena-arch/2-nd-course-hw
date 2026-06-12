@@ -1,7 +1,6 @@
-let password = 'удача' // Задание 1
-let answer = String(prompt('Введите пароль'))
-if (answer === password) {
-    alert('Пароль введен верно')
+let c = 0; // Задание 2
+if (c > 0 && c < 10) {
+    console.log('Верно')
 } else {
-    alert('Пароль введен неправильно')
+    console.log('Неверно')
 }
