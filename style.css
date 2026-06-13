@@ -242,12 +242,22 @@ a {
 .minigames__bg1 {
   position: absolute;
   right: 5%;
-  top: 2%;
+  top: 3%;
 }
 .minigames__bg2 {
   position: absolute;
   right: 10%;
-  top: 1%;
+  top: 2%;
+}
+.minigames__bg3 {
+  position: absolute;
+  bottom: 3%;
+  right: 5%;
+}
+.minigames__bg4 {
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
 }
 .minigames__header {
   font-weight: 700;
@@ -256,6 +266,7 @@ a {
   vertical-align: middle;
   color: #FFFFFF;
   padding-bottom: 72px;
+  padding-top: 46px;
 }
 .minigames__cards {
   display: flex;
@@ -329,15 +340,17 @@ a {
 
 .footer {
   background-color: #BDED35;
+  height: 150px;
 }
 .footer__text {
   font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
+  padding-top: 61px;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -491,5 +504,17 @@ a {
   }
   .minigames {
     display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
