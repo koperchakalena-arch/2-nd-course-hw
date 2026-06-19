@@ -11,3 +11,10 @@ while (a <= 5) {
     console.log(i);
     i++;
 }
+
+let b = 7; // задание 3
+
+do {
+    console.log(i);
+    i++;
+} while (b <= 22);
