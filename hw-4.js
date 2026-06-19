@@ -18,3 +18,13 @@ do {
     console.log(i);
     i++;
 } while (b <= 22);
+
+const obj = {  // Задание 4
+    "Коля": '200',
+    "Вася": '300',
+    "Петя": '400'
+};
+
+for (let key in obj) {
+    console.log(key + " — зарплата " + obj[key] + " долларов");
+}
