@@ -39,3 +39,11 @@ while (n >= 50) {
 
 console.log("Результат: " + n);
 console.log("Количество итераций: " + num);
+
+let firstFriday = 5; // Задание 6
+let day = firstFriday;
+
+while (day <= 31) {
+    console.log("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
+    day += 7;
+}
