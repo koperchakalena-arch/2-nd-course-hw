@@ -28,3 +28,14 @@ const obj = {  // Задание 4
 for (let key in obj) {
     console.log(key + " — зарплата " + obj[key] + " долларов");
 }
+
+let n = 1000; // Задание 5
+let num = 0;
+
+while (n >= 50) {
+    n = n / 2;
+    num++;
+}
+
+console.log("Результат: " + n);
+console.log("Количество итераций: " + num);
