@@ -4,3 +4,10 @@ while (count < 2) {
     console.log("Привет");
     count++;
 }
+
+let a = 1; // Задание 2
+
+while (a <= 5) {
+    console.log(i);
+    i++;
+}
