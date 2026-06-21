@@ -8,15 +8,15 @@ while (count < 2) {
 let a = 1; // Задание 2
 
 while (a <= 5) {
-    console.log(i);
-    i++;
+    console.log(a);
+    a++;
 }
 
 let b = 7; // задание 3
 
 do {
-    console.log(i);
-    i++;
+    console.log(b);
+    b++;
 } while (b <= 22);
 
 const obj = {  // Задание 4
