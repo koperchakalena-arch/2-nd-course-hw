@@ -479,6 +479,9 @@ a {
     transform: scale(1.08);
     transition: all 0.5s;
   }
+  .about-games__cards {
+    padding-bottom: 10px;
+  }
   .about-games__button {
     z-index: 2;
     position: absolute;
