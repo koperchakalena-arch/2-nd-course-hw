@@ -69,3 +69,19 @@ function multiplyNumbers(c, d) { // Задание 5
 
 console.log(multiplyNumbers(12, "s"));
 console.log(multiplyNumbers(23, 12));
+
+
+function cubeNumber() { // Задание 6
+    let input = prompt("Введите число:");
+    let num = Number(input);
+
+    if (isNaN(num) || input === "" || input === null) {
+        return 'Переданный параметр не является числом';
+    }
+
+    let cube = num * num * num;
+    
+    return num + ' в кубе равняется ' + cube;
+}
+
+console.log(cubeNumber())
