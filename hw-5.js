@@ -85,3 +85,17 @@ function cubeNumber() { // Задание 6
 }
 
 console.log(cubeNumber())
+
+const circle1 = { radius: 3 }; // Задание 7
+const circle2 = { radius: 7 };
+
+circle1.getArea = function() {
+    return Math.PI * this.radius * this.radius;
+};
+
+circle2.getArea = function() {
+    return Math.PI * this.radius * this.radius;
+};
+
+console.log(circle1.getArea()); 
+console.log(circle2.getArea());
