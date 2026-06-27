@@ -23,3 +23,17 @@ console.log(number(13));
 console.log(number(7));  
 console.log(number(0));
 console.log(number(-3)); 
+
+
+function printSquare(num) {  // Задание 3
+    console.log(num * num);
+}
+
+function getSquare(num) {
+    return num * num;
+}
+
+console.log(printSquare(5));
+
+let result = getSquare(5);
+console.log("Квадрат числа 5 = " + result); 
