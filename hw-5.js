@@ -55,3 +55,17 @@ function correctAge(age) { // Задание 4
     }
 }
 alert(correctAge(prompt("Сколько вам лет?")));
+
+function multiplyNumbers(c, d) { // Задание 5
+    let num1 = Number(c);
+    let num2 = Number(d);
+    
+    if (isNaN(num1) || isNaN(num2)) {
+        return 'Одно или оба значения не являются числом';
+    }
+    
+    return num1 * num2;
+}
+
+console.log(multiplyNumbers(12, "s"));
+console.log(multiplyNumbers(23, 12));
