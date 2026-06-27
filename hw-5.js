@@ -37,3 +37,21 @@ console.log(printSquare(5));
 
 let result = getSquare(5);
 console.log("Квадрат числа 5 = " + result); 
+
+
+function correctAge(age) { // Задание 4
+    age = Number(age);
+    if (isNaN(age)) {
+        return 'Вы ввели неправильное значение';
+    }
+    if (age < 0) {
+        return 'Вы ввели неправильное значение';
+    }
+    if (age >= 0 && age <= 12) {
+        return 'Привет, друг!';
+    }
+    if (age >= 13) {
+        return 'Добро пожаловать!';
+    }
+}
+alert(correctAge(prompt("Сколько вам лет?")));
