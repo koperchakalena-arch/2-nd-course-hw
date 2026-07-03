@@ -152,6 +152,10 @@
             }
         }
 
+        &__cards{
+            padding-bottom: 10px;
+        }
+
         &__button {
             z-index: 2;
             position: absolute;
@@ -176,6 +180,24 @@
         &__name {
             padding-top: 30px;
             padding-bottom: 16px;
+        }
+    }
+
+    .minigames {
+        display: none;
+    }
+
+    .footer {
+        height: 100px;
+
+        &__text {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 16px;
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 40px;
+            padding-bottom: 40px;
         }
     }
 }

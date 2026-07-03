@@ -31,6 +31,10 @@ a {
     .about-games__button {
         display: none;
     }
+
+    .header__desc-mobile {
+        display: none;
+    }
 }
 
 .center {
@@ -252,18 +256,136 @@ a {
     }
 }
 
+.minigames {
+    background-color: #202027;
+    position: relative;
+    padding-bottom: 144px;
+
+    &__bg1 {
+        position: absolute;
+        right: 5%;
+        top: 3%;
+    }
+
+    &__bg2 {
+        position: absolute;
+        right: 10%;
+        top: 2%;
+    }
+
+    &__bg3 {
+        position: absolute;
+        bottom: 3%;
+        right: 5%;
+    }
+
+    &__bg4 {
+        position: absolute;
+        bottom: 2%;
+        right: 10%;
+    }
+
+    &__header {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        vertical-align: middle;
+        color: #FFFFFF;
+        padding-bottom: 72px;
+        padding-top: 46px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px;
+        text-decoration: none;
+        z-index: 1;
+        height: 500px;
+        justify-content: space-between;
+    }
+
+    &__card-second {
+        display: flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 30px;
+        text-decoration: none;
+        z-index: 1;
+        height: 500px;
+        justify-content: flex-start;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        vertical-align: middle;
+        color: #202027;
+        padding-top: 48px;
+        padding-left: 48px;
+        padding-bottom: 24px;
+    }
+
+    &__about {
+        color: #202027;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        vertical-align: middle;
+        padding-left: 48px;
+        padding-bottom: 36px;
+    }
+
+    &__button {
+        background: #202027;
+        border: 1px solid transparent;
+        box-sizing: border-box;
+        border-radius: 60px;
+        width: 247px;
+        height: 66px;
+        font-size: 24px;
+        line-height: 18px;
+        color: #FFFFFF;
+        font-weight: 600;
+        margin-left: 48px;
+
+        &:hover {
+            background: white;
+            border: 1px solid #000000;
+            color: #000000;
+            transition: all 0.5s;
+        }
+    }
+}
+
 .footer {
     background-color: #BDED35;
+    height: 150px;
 
     &__text {
         font-weight: 600;
-        font-size: 16px;
-        line-height: 100%;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0px;
         text-align: center;
         vertical-align: middle;
-
+        padding-top: 61px;
+        padding-bottom: 60px;
     }
 }
 
