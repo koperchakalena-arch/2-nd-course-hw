@@ -99,3 +99,4 @@ circle2.getArea = function() {
 
 console.log(circle1.getArea()); 
 console.log(circle2.getArea());
+
