@@ -70,7 +70,7 @@ console.log(result9);
 
 const task10 = [1, 3, 4, 7, 10]; // Задание 10
 for (let i = 0; i < task10.length - 1; i++) {
-    let sum = arr[i] + arr[i + 1];
+    let sum = task10[i] + task10[i + 1];
     console.log(sum)
 }
 
@@ -80,7 +80,7 @@ function getSquares(task11) { // Задание 11
     let i = 0;
 
     while (i < task11.length) {
-        result11.push(task11[1] * task11[1]);
+        result11.push(task11[i] * task11[i]);
         i++;
     }
 
