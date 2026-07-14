@@ -19,6 +19,7 @@ function startArithmetic() {
             case 1:
                 num1 = getRandomNumber(1, 20);
                 num2 = getRandomNumber(1, num1);
+                operationSymbol = '-';
                 correctAnswer = num1 - num2;
                 break;
 
