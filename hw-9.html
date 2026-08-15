@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ЗАДАНИЕ 1 -->
+    <h1>Заголовок</h1>
+    <button id="button">Клик</button>
+
+    <!-- ЗАДАНИЕ 2 -->
+    <p id="colorParagraph">Цвет текста будет меняться</p>
+    <button id="colorButton" class="btn-color">Поменять цвет</button>
+
+    <!-- ЗАДАНИЕ 3 -->
+    <button id="changeTextButton" class="btn-change-text">Изменить текст</button>
+
+    <!-- ЗАДАНИЕ 4 -->
+    <div class="description_4">Это первый элемент</div>
+    <div class="description_4">Это второй элемент</div>
+    <div class="description_4">Это третий элемент</div>
+    <div class="description_4">Это четвертый элемент</div>
+    <button id="changeButton">Изменить все описания</button>
+
+    <!-- ЗАДАНИЕ 5  -->
+    <p class="description">Я имею класс description</p>
+    <p class="usual">У меня класс usual</p>
+    <p class="description">Я имею класс description</p>
+    <p class="description">Я имею класс description</p>
+    <p class="usual">У меня класс usual</p>
+    <button id="changeAllDescriptionButton" class="btn-change-all-description">Изменить класс description</button>
+
+    <!-- ЗАДАНИЕ 6 -->
+    <p class="new-paragraph">Существующий абзац</p>
+    <button id="addElementButton">Добавить элемент</button>
+
+    <!-- ЗАДАНИЕ 7 -->
+     <div id="container">
+        <p class="description_7">Первый</p>
+        <p class="description_7">Второй</p>
+        <p class="description_7">Третий</p>
+    </div>
+    <button id="removeButton">Удалить первый</button>
+
+    <script>
+        // ЗАДАНИЕ 1
+        const header = document.querySelector('h1');
+        const button1 = document.querySelector('#button');
+
+        button1.addEventListener('click', function () {
+            // Проверяем, скрыт ли заголовок
+            if (header.style.display === 'none') {
+                header.style.display = 'block';
+                button1.textContent = 'Скрыть';
+            } else {
+                header.style.display = 'none';
+                button1.textContent = 'Показать';
+            }
+        });
+
+        // ЗАДАНИЕ 2
+        const paragraph = document.getElementById('colorParagraph');
+        const colorButton = document.getElementById('colorButton');
+
+        colorButton.addEventListener('click', function () {
+            paragraph.style.color = 'blue';
+        });
+
+
+        // ЗАДАНИЕ 3
+        const changeTextButton = document.getElementById('changeTextButton');
+        let originalText = header.textContent;
+
+        changeTextButton.addEventListener('click', function () {
+            header.textContent = 'Привет, мир!';
+        });
+
+        // ЗАДАНИЕ 4
+        const changeButton = document.getElementById('changeButton');
+
+        changeButton.addEventListener('click', function () {
+            const descriptions = document.querySelectorAll('.description_4');
+
+            descriptions.forEach(function (el) {
+                el.textContent = 'Измененный текст';
+            });
+        });
+
+        // ЗАДАНИЕ 5
+        const changeAllDescButton = document.getElementById('changeAllDescriptionButton');
+
+        const allDescriptionElements = document.querySelectorAll('.description');
+        const originalAllDescriptions = [];
+
+        allDescriptionElements.forEach(function (el) {
+            originalAllDescriptions.push(el.textContent);
+        });
+
+        changeAllDescButton.addEventListener('click', function () {
+            const items = document.querySelectorAll('.description');
+
+            items.forEach(function (item) {
+                item.textContent = 'Новый текст';
+            });
+        });
+
+        // ЗАДАНИЕ 6
+        const container6 = document.getElementById('containerForNewElements');
+        const addButton = document.getElementById('addElementButton');
+
+        addButton.addEventListener('click', function() {
+            const newParagraph = document.createElement('p');
+            
+            newParagraph.className = 'new-paragraph';
+            newParagraph.textContent = 'Новый абзац';
+            
+            container6.appendChild(newParagraph);
+        });
+
+        // ЗАДАНИЕ 7
+        const container = document.getElementById('container');
+        const button = document.getElementById('removeButton');
+
+        button.addEventListener('click', function() {
+            const first = container.querySelector('.description_7');
+            if (first) {
+                first.remove();
+            }
+        });
+    </script>
+</body>
+
+</html>
