@@ -50,4 +50,14 @@ let intervalId = setInterval(showDate, 3000);
 setTimeout(function () {
     clearInterval(intervalId);
     console.log("30 секунд прошло");
-}, 30000); 
+}, 30000);
+
+
+// Задание 4
+function delayForSecond(callback) {
+    setTimeout(callback, 1000);
+}
+
+delayForSecond(function () {
+    console.log('Привет, Глеб!');
+});
