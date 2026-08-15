@@ -39,3 +39,15 @@ const people2 = [
 ];
 
 console.log(filter(people, isMale));
+
+// Задание 3
+function showDate() {
+    console.log(new Date().toLocaleString());
+}
+
+let intervalId = setInterval(showDate, 3000);
+
+setTimeout(function () {
+    clearInterval(intervalId);
+    console.log("30 секунд прошло");
+}, 30000); 
