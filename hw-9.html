@@ -35,11 +35,13 @@
     <button id="changeAllDescriptionButton" class="btn-change-all-description">Изменить класс description</button>
 
     <!-- ЗАДАНИЕ 6 -->
-    <p class="new-paragraph">Существующий абзац</p>
+    <div id="containerForNewElements">
+        <p class="new-paragraph">Существующий абзац</p>
+    </div>
     <button id="addElementButton">Добавить элемент</button>
 
     <!-- ЗАДАНИЕ 7 -->
-     <div id="containerForNewElements">
+    <div id="containerForNewElements">
         <p class="description_7">Первый</p>
         <p class="description_7">Второй</p>
         <p class="description_7">Третий</p>
@@ -112,12 +114,12 @@
         const container6 = document.getElementById('containerForNewElements');
         const addButton = document.getElementById('addElementButton');
 
-        addButton.addEventListener('click', function() {
+        addButton.addEventListener('click', function () {
             const newParagraph = document.createElement('p');
-            
+
             newParagraph.className = 'new-paragraph';
             newParagraph.textContent = 'Новый абзац';
-            
+
             container6.appendChild(newParagraph);
         });
 
@@ -125,7 +127,7 @@
         const container = document.getElementById('container');
         const button = document.getElementById('removeButton');
 
-        button.addEventListener('click', function() {
+        button.addEventListener('click', function () {
             const first = container.querySelector('.description_7');
             if (first) {
                 first.remove();
