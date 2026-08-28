@@ -118,7 +118,7 @@
                 <div class="minigames__desc">
                     <h3 class="minigames__name">Угадай число</h3>
                     <p class="minigames__about">Попробуй угадать случайное <br> число от 1 до 100.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startGuess()">Играть!</button>
                 </div>
                 <img src="./pic/mini1.png" alt="mini1" class="minigames__img">
             </div>
@@ -127,14 +127,14 @@
                 <div class="minigames__desc">
                     <h3 class="minigames__name">Простая арифметика</h3>
                     <p class="minigames__about">Попробуй решить простые <br> арифметические задачи.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startArithmetic()">Играть!</button>
                 </div>
             </div>
             <div class="minigames__card" id="minigame-3">
                 <div class="minigames__desc">
                     <h3 class="minigames__name">Переверни текст</h3>
                     <p class="minigames__about">Попробуй ввести текст, который <br> будет перевернут.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startReverseText()">Играть!</button>
                 </div>
                 <img src="./pic/mini3.png" alt="mini3" class="minigames__img">
             </div>
@@ -143,14 +143,14 @@
                 <div class="minigames__desc">
                     <h3 class="minigames__name">Камень, <br> ножницы, <br> бумага</h3>
                     <p class="minigames__about">Сыграй в популярную игру <br> против компьютера.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startRPS()">Играть!</button>
                 </div>
             </div>
             <div class="minigames__card" id="minigame-5">
                 <div class="minigames__desc">
                     <h3 class="minigames__name">Простая <br> викторина</h3>
                     <p class="minigames__about">Отвечай на вопросы викторины <br> с вариантами ответов</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startQuiz()">Играть!</button>
                 </div>
                 <img src="./pic/mini5.png" alt="mini5" class="minigames__img">
             </div>
@@ -170,6 +170,11 @@
     <footer class="footer center">
         <p class="footer__text">Все права защищены.</p>
     </footer>
+    <script src="games/arithmetic.js"></script>
+    <script src="games/guessNumber.js"></script>
+    <script src="games/reverseText.js"></script>
+    <script src="games/victorina.js"></script>
+    <script src="games/rps.js"></script>
 </body>
 
 </html>
