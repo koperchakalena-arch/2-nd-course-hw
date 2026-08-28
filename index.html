@@ -27,11 +27,13 @@
         </div>
         <div class="mainheader__mobile">
             <img src="./pic/mobile_1.png" alt="mobile_1" class="mainheader__mobile1">
-            <img src="./pic/mobile_2.png" alt="mobile_2" class="mainheader__mobile2">
-            <img src="./pic/mobile_3.png" alt="mobile_3" class="mainheader__mobile3">
-            <img src="./pic/mobile_4.png" alt="mobile_4" class="mainheader__mobile4">
-            <img src="./pic/mobile_5.png" alt="mobile_5" class="mainheader__mobile5">
+            <img src="./pic/star1.svg" alt="mobile_2" class="mainheader__mobile2">
+            <img src="./pic/star2.svg" alt="mobile_3" class="mainheader__mobile3">
+            <img src="./pic/star3.svg" alt="mobile_4" class="mainheader__mobile4">
+            <img src="./pic/star4.svg" alt="mobile_5" class="mainheader__mobile5">
         </div>
+        <div class="mainheader__tablet">
+            <img src="./pic/tablet_1.png" alt="tablet_1">
         </div>
         <header class="header">
             <h1 class="header__main">Добро пожаловать<br>на мой сайт мини-игр</h1>
@@ -47,6 +49,28 @@
             </a>
         </header>
     </section>
+    <div class="scroll-wrapper">
+        <div class="scroll-content">
+            <div class="scroll-item">ВИКТОРИНА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">УГАДАЙ ЧИСЛО</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ПЕРЕВЕРНИ ТЕКСТ</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ПРОСТАЯ АРИФМЕТИКА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+        </div>
+    </div>
     <section class="about-games center" id="about-games">
         <img src="./pic/ag_1.png" alt="ag_1" class="ag_bg1">
         <img src="./pic/ag_2.png" alt="ag_2" class="ag_bg2">
@@ -160,7 +184,7 @@
                     <h3 class="minigames__name">Генератор <br> случайных <br> цветов</h3>
                     <p class="minigames__about">Игра, в которой при клике на кнопку <br> фон страницы меняется на
                         случайный.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="startColorGenerator()"">Играть!</button>
                 </div>
             </div>
             <img src="./pic/mini-bg1.png" alt="mini-bg1" class="minigames__bg3">
@@ -175,6 +199,7 @@
     <script src="games/reverseText.js"></script>
     <script src="games/victorina.js"></script>
     <script src="games/rps.js"></script>
+    <script src="games/colorGenerator.js"></script>
 </body>
 
 </html>
