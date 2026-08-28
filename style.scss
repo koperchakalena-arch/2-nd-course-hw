@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a,
 input,
 button {
@@ -17,28 +21,6 @@ button {
 
 a {
     text-decoration: none;
-}
-
-@media (min-width: 768px) {
-    .mainheader__mobile {
-        display: none;
-    }
-
-    .about-games__mobile {
-        display: none;
-
-        &-desc {
-            display: none;
-        }
-    }
-
-    .about-games__button {
-        display: none;
-    }
-
-    .header__desc-mobile {
-        display: none;
-    }
 }
 
 .center {
@@ -150,6 +132,12 @@ a {
     }
 }
 
+.scroll-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .scroll-content {
     display: flex;
     gap: 50px;
@@ -169,7 +157,6 @@ a {
     font-size: 30px;
     letter-spacing: 4%;
     vertical-align: middle;
-    text-transform: uppercase;
     z-index: 2;
 }
 
@@ -423,6 +410,32 @@ a {
         vertical-align: middle;
         padding-top: 61px;
         padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mainheader__mobile {
+        display: none;
+    }
+
+    .about-games__mobile {
+        display: none;
+
+        &-desc {
+            display: none;
+        }
+    }
+
+    .about-games__button {
+        display: none;
+    }
+
+    .header__desc-mobile {
+        display: none;
+    }
+
+    .ministar {
+        display: none;
     }
 }
 

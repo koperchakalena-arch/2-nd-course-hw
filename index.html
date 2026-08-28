@@ -32,7 +32,6 @@
             <img src="./pic/mobile_4.png" alt="mobile_4" class="mainheader__mobile4">
             <img src="./pic/mobile_5.png" alt="mobile_5" class="mainheader__mobile5">
         </div>
-        </div>
         <header class="header">
             <h1 class="header__main">Добро пожаловать<br>на мой сайт мини-игр</h1>
             <p class="header__desc">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
@@ -47,19 +46,27 @@
             </a>
         </header>
     </section>
-    <div class="scroll-content">
-        <div class="scroll-item">Викторина</div>
-        <img src="./pic/star.png" alt="atar">
-        <div class="scroll-item">Угадай число</div>
-        <img src="./pic/star.png" alt="atar">
-        <div class="scroll-item">Переверни текст</div>
-        <img src="./pic/star.png" alt="atar">
-        <div class="scroll-item">Простая арифметика</div>
-        <img src="./pic/star.png" alt="atar">
-        <div class="scroll-item">Камень, ножницы, бумага</div>
-        <img src="./pic/star.png" alt="atar">
-        <div class="scroll-item">Генератор случайных цветов</div>
-        <img src="./pic/star.png" alt="atar">
+    <div class="scroll-wrapper">
+        <div class="scroll-content">
+            <div class="scroll-item">ВИКТОРИНА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">УГАДАЙ ЧИСЛО</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ПЕРЕВЕРНИ ТЕКСТ</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ПРОСТАЯ АРИФМЕТИКА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+            <div class="scroll-item">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</div>
+            <img src="./pic/star.png" alt="star" class="scroll-star">
+            <img src="./pic/ministar.png" alt="ministar" class="ministar">
+        </div>
     </div>
     <section class="about-games center" id="about-games">
         <img src="./pic/ag_1.png" alt="ag_1" class="ag_bg1">
@@ -174,7 +181,7 @@
                     <h3 class="minigames__name">Генератор <br> случайных <br> цветов</h3>
                     <p class="minigames__about">Игра, в которой при клике на кнопку <br> фон страницы меняется на
                         случайный.</p>
-                    <button class="minigames__button">Играть!</button>
+                    <button class="minigames__button" onclick="generateRandomColor()">Играть!</button>
                 </div>
             </div>
             <img src="./pic/mini-bg1.png" alt="mini-bg1" class="minigames__bg3">
